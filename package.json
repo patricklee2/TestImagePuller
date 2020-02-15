@@ -1,0 +1,23 @@
+{
+  "name": "testimagepuller",
+  "scripts": {
+    "start": "node docker.js"
+  },
+  "description": "",
+  "version": "1.0.0",
+  "main": "docker.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patricklee2/TestImagePuller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patricklee2/TestImagePuller/issues"
+  },
+  "homepage": "https://github.com/patricklee2/TestImagePuller#readme"
+}
