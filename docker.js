@@ -33,7 +33,7 @@ app.get('/images', function(req, res){
         res.end("file read error");
         return;
       }
-      res.writeHead(200, {'Content-Type': 'text/html'});
+      res.writeHead(200, {'Content-Type': 'text/json'});
       res.end(data);
     });
   });
