@@ -45,7 +45,7 @@ app.get('/remove', function(req, res){
   var contents = image;
   
   var file = 'remove/1.req';
-  fs.writeFile(file,content, err => {
+  fs.writeFile(file, contents, err => {
     res.writeHead(202, {'Content-Type': 'text/html'});
     res.end(contents);
   });
