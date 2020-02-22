@@ -1,5 +1,5 @@
 #!/bin/bash
-
+mkdir "/var/LWASFiles/Sites/testimagepuller/home/site/wwwroot/pullandtag"
 file="/var/LWASFiles/Sites/testimagepuller/home/site/wwwroot/pullandtag/1.req"
 #file="/home/patle/TestImagePuller/pullandtag/1.req"
 

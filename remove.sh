@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir "var/LWASFiles/Sites/testimagepuller/home/site/wwwroot/remove"
+mkdir "/var/LWASFiles/Sites/testimagepuller/home/site/wwwroot/remove"
 file="/var/LWASFiles/Sites/testimagepuller/home/site/wwwroot/remove/1.req"
 #file="/home/patle/TestImagePuller/remove/1.req"
 
