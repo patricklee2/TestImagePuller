@@ -1,7 +1,7 @@
 #!/bin/bash
-
-#file="/var/LWASFiles/Sites/testimagepuller/home/site/wwwroot/remove/1.req"
-file="/home/patle/TestImagePuller/remove/1.req"
+mkdir "var/LWASFiles/Sites/testimagepuller/home/site/wwwroot/remove"
+file="/var/LWASFiles/Sites/testimagepuller/home/site/wwwroot/remove/1.req"
+#file="/home/patle/TestImagePuller/remove/1.req"
 
 if [[ ! -f "$file" ]]; then
       echo "file not found"
