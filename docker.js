@@ -7,7 +7,7 @@ app.get('/pullandtag', function(req, res){
   var query = url.parse(req.url, true).query;
   var source = query.source;
   var tag = query.tag;
-  var contents = source + "\n" + tag;
+  var contents = source + "\n" + tag + "\n";
   var file = 'pullandtag/1.req';
   //under /home
   fs.appendFile(file, contents, err => {
@@ -42,7 +42,7 @@ app.get('/images', function(req, res){
 app.get('/remove', function(req, res){
   var query = url.parse(req.url, true).query;
   var image = query.image;
-  var contents = image;
+  var contents = image + "\n";
   
   var file = 'remove/1.req';
   fs.appendFile(file, contents, err => {
