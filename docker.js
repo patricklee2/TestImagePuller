@@ -10,7 +10,7 @@ app.get('/pullandtag', function(req, res){
   var contents = source + "\n" + tag;
   var file = 'pullandtag/1.req';
   //under /home
-  fs.writeFile(file, contents, err => {
+  fs.appendFile(file, contents, err => {
       res.writeHead(202, {'Content-Type': 'text/html'});
       res.end(contents);
   });
@@ -45,7 +45,7 @@ app.get('/remove', function(req, res){
   var contents = image;
   
   var file = 'remove/1.req';
-  fs.writeFile(file, contents, err => {
+  fs.appendFile(file, contents, err => {
     res.writeHead(202, {'Content-Type': 'text/html'});
     res.end(contents);
   });
